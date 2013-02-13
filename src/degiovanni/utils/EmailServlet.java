@@ -22,7 +22,7 @@ public class EmailServlet extends HttpServlet {
 		        out.println("</head>");
 		        out.println("<body>");
 		        out.println("<h1>Email Servlet</h1>");
-		        out.println("get request: "+request.getParameter("test"));
+		        out.println("get request: "+request.getParameter("test")+"<br>I still need to implement the actual send mail part...");
 		        out.println("</body>");
 		        out.println("</html>");
 		    }
@@ -39,7 +39,7 @@ public class EmailServlet extends HttpServlet {
 		        out.println("</head>");
 		        out.println("<body>");
 		        out.println("<h1>Email Servlet</h1>");
-		        out.println("post request: "+request.getParameter("test"));
+		        out.println("post request: "+request.getParameter("test")+"<br>I still need to implement the actual send mail part...");
 		        out.println("</body>");
 		        out.println("</html>");
 		    }
