@@ -8,8 +8,9 @@
 </head>
 <body>
 <a href="/EmailServlet/Email?test=getparameter">GET link</a>
-<form action="/EmailServlet/Email">
+<form action="/EmailServlet/Email" method="POST">
 	<input name="test" type="text" />
+	<input type="submit"/>
 </form>
 </body>
 </html>
