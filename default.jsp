@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="/Email?test=getparameter">GET link</a>
-<form action="/Email">
+<a href="/EmailServlet/Email?test=getparameter">GET link</a>
+<form action="/EmailServlet/Email">
 	<input name="test" type="text" />
 </form>
 </body>
