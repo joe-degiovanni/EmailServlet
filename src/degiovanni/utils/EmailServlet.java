@@ -22,6 +22,7 @@ public class EmailServlet extends HttpServlet {
 		        out.println("</head>");
 		        out.println("<body>");
 		        out.println("<h1>Email Servlet</h1>");
+		        out.println("get request: "+request.getParameter("test"));
 		        out.println("</body>");
 		        out.println("</html>");
 		    }
@@ -29,6 +30,7 @@ public class EmailServlet extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 		    throws IOException, ServletException
 		    {
+				
 		        response.setContentType("text/html");
 		        PrintWriter out = response.getWriter();
 		        out.println("<html>");
@@ -37,6 +39,7 @@ public class EmailServlet extends HttpServlet {
 		        out.println("</head>");
 		        out.println("<body>");
 		        out.println("<h1>Email Servlet</h1>");
+		        out.println("post request: "+request.getParameter("test"));
 		        out.println("</body>");
 		        out.println("</html>");
 		    }

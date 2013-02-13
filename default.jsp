@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<a href="/Email?test=getparameter">GET link</a>
+<form action="/Email">
+	<input name="test" type="text" />
+</form>
 </body>
 </html>
